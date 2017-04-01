@@ -1,0 +1,43 @@
+c:\users\siashim\documents\visual studio 2013\Projects\475 Lab 4 Part 3\475 Lab 4 Part 3\bin\Debug\475 Lab 4 Part 3.exe.config
+C:\Users\Siashim\Documents\Visual Studio 2013\Projects\475 Lab 4 Part 3\475 Lab 4 Part 3\bin\Debug\SchoolDB.mdf
+C:\Users\Siashim\Documents\Visual Studio 2013\Projects\475 Lab 4 Part 3\475 Lab 4 Part 3\bin\Debug\SchoolDB_log.ldf
+C:\Users\Siashim\Documents\Visual Studio 2013\Projects\475 Lab 4 Part 3\475 Lab 4 Part 3\bin\Debug\475 Lab 4 Part 3.exe
+C:\Users\Siashim\Documents\Visual Studio 2013\Projects\475 Lab 4 Part 3\475 Lab 4 Part 3\bin\Debug\475 Lab 4 Part 3.pdb
+C:\Users\Siashim\Documents\Visual Studio 2013\Projects\475 Lab 4 Part 3\475 Lab 4 Part 3\bin\Debug\EntityFramework.dll
+C:\Users\Siashim\Documents\Visual Studio 2013\Projects\475 Lab 4 Part 3\475 Lab 4 Part 3\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Siashim\Documents\Visual Studio 2013\Projects\475 Lab 4 Part 3\475 Lab 4 Part 3\bin\Debug\EntityFramework.xml
+C:\Users\Siashim\Documents\Visual Studio 2013\Projects\475 Lab 4 Part 3\475 Lab 4 Part 3\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Siashim\Documents\Visual Studio 2013\Projects\475 Lab 4 Part 3\475 Lab 4 Part 3\obj\Debug\475 Lab 4 Part 3.csprojResolveAssemblyReference.cache
+C:\Users\Siashim\Documents\Visual Studio 2013\Projects\475 Lab 4 Part 3\475 Lab 4 Part 3\obj\Debug\475 Lab 4 Part 3.exe
+C:\Users\Siashim\Documents\Visual Studio 2013\Projects\475 Lab 4 Part 3\475 Lab 4 Part 3\obj\Debug\475 Lab 4 Part 3.pdb
+C:\cecs475sum15\lab4\475 Lab 4 All Parts\475 Lab 4 Part 3\475 Lab 4 Part 3\bin\Debug\475 Lab 4 Part 3.exe.config
+C:\cecs475sum15\lab4\475 Lab 4 All Parts\475 Lab 4 Part 3\475 Lab 4 Part 3\obj\Debug\475 Lab 4 Part 3.exe
+C:\cecs475sum15\lab4\475 Lab 4 All Parts\475 Lab 4 Part 3\475 Lab 4 Part 3\obj\Debug\475 Lab 4 Part 3.pdb
+C:\cecs475sum15\lab4\475 Lab 4 All Parts\475 Lab 4 Part 3\475 Lab 4 Part 3\bin\Debug\SchoolDB.mdf
+C:\cecs475sum15\lab4\475 Lab 4 All Parts\475 Lab 4 Part 3\475 Lab 4 Part 3\bin\Debug\SchoolDB_log.ldf
+C:\cecs475sum15\lab4\475 Lab 4 All Parts\475 Lab 4 Part 3\475 Lab 4 Part 3\bin\Debug\475 Lab 4 Part 3.exe
+C:\cecs475sum15\lab4\475 Lab 4 All Parts\475 Lab 4 Part 3\475 Lab 4 Part 3\bin\Debug\475 Lab 4 Part 3.pdb
+C:\cecs475sum15\lab4\475 Lab 4 All Parts\475 Lab 4 Part 3\475 Lab 4 Part 3\bin\Debug\EntityFramework.xml
+C:\cecs475sum15\lab4\475 Lab 4 All Parts\475 Lab 4 Part 3\475 Lab 4 Part 3\obj\Debug\475 Lab 4 Part 3.csprojResolveAssemblyReference.cache
+C:\cecs475sum15\lab4\475 Lab 4 Part 3\bin\Debug\475 Lab 4 Part 3.exe.config
+C:\cecs475sum15\lab4\475 Lab 4 Part 3\obj\Debug\475 Lab 4 Part 3.exe
+C:\cecs475sum15\lab4\475 Lab 4 Part 3\obj\Debug\475 Lab 4 Part 3.pdb
+E:\CECS 475\Lab 5 - Repository Pattern\475 Lab 4 Part 3\bin\Debug\475 Lab 4 Part 3.exe.config
+E:\CECS 475\Lab 5 - Repository Pattern\475 Lab 4 Part 3\obj\Debug\475 Lab 4 Part 3.exe
+E:\CECS 475\Lab 5 - Repository Pattern\475 Lab 4 Part 3\obj\Debug\475 Lab 4 Part 3.pdb
+E:\CECS 475\Lab 5 - Repository Pattern\475 Lab 4 Part 3\bin\Debug\SchoolDB.mdf
+E:\CECS 475\Lab 5 - Repository Pattern\475 Lab 4 Part 3\bin\Debug\SchoolDB_log.ldf
+E:\CECS 475\Lab 5 - Repository Pattern\475 Lab 4 Part 3\bin\Debug\475 Lab 4 Part 3.exe
+E:\CECS 475\Lab 5 - Repository Pattern\475 Lab 4 Part 3\bin\Debug\475 Lab 4 Part 3.pdb
+E:\CECS 475\Lab 5 - Repository Pattern\475 Lab 4 Part 3\obj\Debug\475 Lab 4 Part 3.csprojResolveAssemblyReference.cache
+C:\Users\Victor Espinoza\Documents\Long Beach\Backup Flash Drive Files\March 2017 Backup\CECS 475\Lab 5 - Repository Pattern\475 Lab 4 Part 3\bin\Debug\475 Lab 4 Part 3.exe.config
+C:\Users\Victor Espinoza\Documents\Long Beach\Backup Flash Drive Files\March 2017 Backup\CECS 475\Lab 5 - Repository Pattern\475 Lab 4 Part 3\obj\Debug\475 Lab 4 Part 3.exe
+C:\Users\Victor Espinoza\Documents\Long Beach\Backup Flash Drive Files\March 2017 Backup\CECS 475\Lab 5 - Repository Pattern\475 Lab 4 Part 3\obj\Debug\475 Lab 4 Part 3.pdb
+C:\Users\Victor Espinoza\Documents\Long Beach\Backup Flash Drive Files\March 2017 Backup\CECS 475\Lab 5 - Repository Pattern\475 Lab 4 Part 3\bin\Debug\SchoolDB.mdf
+C:\Users\Victor Espinoza\Documents\Long Beach\Backup Flash Drive Files\March 2017 Backup\CECS 475\Lab 5 - Repository Pattern\475 Lab 4 Part 3\bin\Debug\SchoolDB_log.ldf
+C:\Users\Victor Espinoza\Documents\Long Beach\Backup Flash Drive Files\March 2017 Backup\CECS 475\Lab 5 - Repository Pattern\475 Lab 4 Part 3\bin\Debug\475 Lab 4 Part 3.exe
+C:\Users\Victor Espinoza\Documents\Long Beach\Backup Flash Drive Files\March 2017 Backup\CECS 475\Lab 5 - Repository Pattern\475 Lab 4 Part 3\bin\Debug\475 Lab 4 Part 3.pdb
+C:\Users\Victor Espinoza\Documents\Long Beach\Backup Flash Drive Files\March 2017 Backup\CECS 475\Lab 5 - Repository Pattern\475 Lab 4 Part 3\obj\Debug\475 Lab 4 Part 3.csprojResolveAssemblyReference.cache
+C:\Users\Victor Espinoza\Documents\Long Beach\Victor's Projects To Upload\Spring 2016\CECS 475\Lab 5 - Repository Pattern\475 Lab 4 Part 3\bin\Debug\475 Lab 4 Part 3.exe.config
+C:\Users\Victor Espinoza\Documents\Long Beach\Victor's Projects To Upload\Spring 2016\CECS 475\Lab 5 - Repository Pattern\475 Lab 4 Part 3\obj\Debug\475 Lab 4 Part 3.exe
+C:\Users\Victor Espinoza\Documents\Long Beach\Victor's Projects To Upload\Spring 2016\CECS 475\Lab 5 - Repository Pattern\475 Lab 4 Part 3\obj\Debug\475 Lab 4 Part 3.pdb
