@@ -24,13 +24,6 @@
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Class Name="_475_Lab_4_Part_3.SchoolDBEntities" Collapsed="true">
-    <Position X="5.25" Y="1.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAIAAAAAACAAAAAAAAAAgAAAEIAAAAAFAAAAAhAAIIA=</HashCode>
-      <FileName>Model1.Context.cs</FileName>
-    </TypeIdentifier>
-  </Class>
   <Class Name="_475_Lab_4_Part_3.Course" Collapsed="true">
     <Position X="7" Y="0.5" Width="1.5" />
     <TypeIdentifier>
@@ -94,6 +87,13 @@
       <FileName>Repository.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="_475_Lab_4_Part_3.SchoolDBEntities" Collapsed="true">
+    <Position X="5.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAACAAAAAAAAAAgAAAEIAAAAAFAAAAAhAAIIA=</HashCode>
+      <FileName>Model1.Context.cs</FileName>
+    </TypeIdentifier>
   </Class>
   <Interface Name="_475_Lab_4_Part_3.IBusinessLayer" Collapsed="true">
     <Position X="5.25" Y="3.75" Width="1.5" />
