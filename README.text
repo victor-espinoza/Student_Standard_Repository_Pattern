@@ -1,0 +1,327 @@
+# Lab_5_Repository_Pattern
+Implementation of the Repository pattern using C#. 
+
+In this project I used the database SchoolDB, which has different tables, stored procedures and views. I created an Entity Data Model (EDM) for this SchoolDB database. Once this was done, I then used the Repository pattern to create an abstraction layer between the data access layer and the business logic layer. 
+
+This abstraction layer contains data manipulation methods which communicate with the data access layer to serve data as per the business requirements to the logical layer. The main purpose of creating this layer is to isolate the data access layer so that changes cannot affect the business logic layer directly.
+
+I also implemented unit of work into this project, which is a pattern to handle transactions during data manipulation using the Repository pattern. Implementing these patterns can help insulate the application from changes in the data store and also gives advantages to automate unit testing. 
+
+My Repository Interface contains the Create, Read, Update, Delete (CRUD) functionality along with Queryable searches for both Students and Standards.
+
+This project allows the user to view all of the Standards in the SchoolDB database, create a new Standard, update a current Standard, view a Standard's information via certain criteria, and remove a Standard. These options are also available to be performed on all of the Students in the SchoolDB database. 
+
+Dependencies:      
+This project was created using Microsoft Visual Studio Community 2013 for Windows Desktop Version: 12.0.40629.00 Update 5.
+      
+Sample Output:            
+*Note: Only a portion of the output will be shown in order to conserve space...
+ User Menu:
+ 1.  Display all Standards
+ 2.  Get Standard by Standard ID
+ 3.  Get Standard by Standard Name
+ 4.  Add new Standard
+ 5.  Udate Standard
+ 6.  Remove Standard
+ 7.  Display all Students
+ 8.  Get Student By Student ID
+ 9.  Get Student by Student Name
+ 10. Get all Students that have the same Standard ID
+ 11. Add new Student
+ 12. Update Student
+ 13. Remove Student
+ 14. Exit Program
+
+Please enter the number of the command you wish to execute:
+(1 <= command number =< 14):
+7
+Retrieve all of the Students using the getAllStudents() method:
+Student ID:          Student Name:   Standard ID:    Row Version:
+1                    Student1        1               00-00-00-00-00-00-17-71
+2                    Student2        2               00-00-00-00-00-00-17-72
+3                    Student3        1               00-00-00-00-00-00-17-73
+4                    Student4        3               00-00-00-00-00-00-17-74
+5                    Student5        4               00-00-00-00-00-00-17-75
+6                    Student6        4               00-00-00-00-00-00-17-76
+7                    Student7        1               00-00-00-00-00-00-17-77
+8                    Student8        2               00-00-00-00-00-00-17-78
+9                    Student9        5               00-00-00-00-00-00-17-79
+10                   Student10       5               00-00-00-00-00-00-17-7A
+
+
+User Menu:
+ 1.  Display all Standards
+ 2.  Get Standard by Standard ID
+ 3.  Get Standard by Standard Name
+ 4.  Add new Standard
+ 5.  Udate Standard
+ 6.  Remove Standard
+ 7.  Display all Students
+ 8.  Get Student By Student ID
+ 9.  Get Student by Student Name
+ 10. Get all Students that have the same Standard ID
+ 11. Add new Student
+ 12. Update Student
+ 13. Remove Student
+ 14. Exit Program
+
+Please enter the number of the command you wish to execute:
+(1 <= command number =< 14):
+9
+
+
+Get a Student using the GetStudentByName(string studentName) method:
+Available Standard Names to choose from:
+Student Name:
+Student1
+Student2
+Student3
+Student4
+Student5
+Student6
+Student7
+Student8
+Student9
+Student10
+
+Please Enter the Desired StandardName of the desired Standard:Student6
+Student ID:          Student Name:   Standard ID:    Row Version:
+6                    Student6        4               00-00-00-00-00-00-17-76
+
+
+User Menu:
+ 1.  Display all Standards
+ 2.  Get Standard by Standard ID
+ 3.  Get Standard by Standard Name
+ 4.  Add new Standard
+ 5.  Udate Standard
+ 6.  Remove Standard
+ 7.  Display all Students
+ 8.  Get Student By Student ID
+ 9.  Get Student by Student Name
+ 10. Get all Students that have the same Standard ID
+ 11. Add new Student
+ 12. Update Student
+ 13. Remove Student
+ 14. Exit Program
+
+Please enter the number of the command you wish to execute:
+(1 <= command number =< 14):
+10
+
+
+Get all Students that have the same Standard ID:
+Available Standards to choose from:
+Standard ID:
+1
+2
+3
+4
+5
+
+Please Enter the Desired StandardID of the desired Standard:5
+Student ID:          Student Name:   Standard ID:    Row Version:
+9                    Student9        5               00-00-00-00-00-00-17-79
+10                   Student10       5               00-00-00-00-00-00-17-7A
+
+
+User Menu:
+ 1.  Display all Standards
+ 2.  Get Standard by Standard ID
+ 3.  Get Standard by Standard Name
+ 4.  Add new Standard
+ 5.  Udate Standard
+ 6.  Remove Standard
+ 7.  Display all Students
+ 8.  Get Student By Student ID
+ 9.  Get Student by Student Name
+ 10. Get all Students that have the same Standard ID
+ 11. Add new Student
+ 12. Update Student
+ 13. Remove Student
+ 14. Exit Program
+
+Please enter the number of the command you wish to execute:
+(1 <= command number =< 14):
+11
+
+
+Add Student using addStudent(Student addStudentItem) method.
+The Student ID will automatically be created for you via the sql table definitio
+n.
+Please Enter the Desired Student Name:
+NewStudent
+Please Enter the Desired Standard Associated with the student (StandardId must b
+e a valid StandardId in the Standards table:
+Available Standards to choose from:
+Standard ID:
+1
+2
+3
+4
+5
+
+Please Enter the Desired StandardID of the desired Standard:5
+
+New Student created successfully. Here is the newly created student:
+Student ID:          Student Name:   Standard ID:    Row Version:
+15                   NewStudent      5               00-00-00-00-00-00-36-B1
+
+
+User Menu:
+ 1.  Display all Standards
+ 2.  Get Standard by Standard ID
+ 3.  Get Standard by Standard Name
+ 4.  Add new Standard
+ 5.  Udate Standard
+ 6.  Remove Standard
+ 7.  Display all Students
+ 8.  Get Student By Student ID
+ 9.  Get Student by Student Name
+ 10. Get all Students that have the same Standard ID
+ 11. Add new Student
+ 12. Update Student
+ 13. Remove Student
+ 14. Exit Program
+
+Please enter the number of the command you wish to execute:
+(1 <= command number =< 14):
+12
+Udate Student using the UpdateStudent(Student updateStudentItem) method:
+Available Students to choose from:
+Student ID:
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+15
+
+Please Enter the Desired StudentID of the desired Student:15
+
+
+Student Data Retrieved.
+Do you wish to update the Student Name? y/n
+y
+Please Enter the Desired Student Name:
+UpdatedStudent
+Do you wish to update the Standard ID? y/n
+n
+Student Updated Successfully.
+
+Here is the updated Student data:
+Student ID:          Student Name:   Standard ID:    Row Version:
+15                   UpdatedStudent  5               00-00-00-00-00-00-36-B2
+
+
+User Menu:
+ 1.  Display all Standards
+ 2.  Get Standard by Standard ID
+ 3.  Get Standard by Standard Name
+ 4.  Add new Standard
+ 5.  Udate Standard
+ 6.  Remove Standard
+ 7.  Display all Students
+ 8.  Get Student By Student ID
+ 9.  Get Student by Student Name
+ 10. Get all Students that have the same Standard ID
+ 11. Add new Student
+ 12. Update Student
+ 13. Remove Student
+ 14. Exit Program
+
+Please enter the number of the command you wish to execute:
+(1 <= command number =< 14):
+7
+Retrieve all of the Students using the getAllStudents() method:
+Student ID:          Student Name:   Standard ID:    Row Version:
+1                    Student1        1               00-00-00-00-00-00-17-71
+2                    Student2        2               00-00-00-00-00-00-17-72
+3                    Student3        1               00-00-00-00-00-00-17-73
+4                    Student4        3               00-00-00-00-00-00-17-74
+5                    Student5        4               00-00-00-00-00-00-17-75
+6                    Student6        4               00-00-00-00-00-00-17-76
+7                    Student7        1               00-00-00-00-00-00-17-77
+8                    Student8        2               00-00-00-00-00-00-17-78
+9                    Student9        5               00-00-00-00-00-00-17-79
+10                   Student10       5               00-00-00-00-00-00-17-7A
+15                   UpdatedStudent  5               00-00-00-00-00-00-36-B2
+
+
+User Menu:
+ 1.  Display all Standards
+ 2.  Get Standard by Standard ID
+ 3.  Get Standard by Standard Name
+ 4.  Add new Standard
+ 5.  Udate Standard
+ 6.  Remove Standard
+ 7.  Display all Students
+ 8.  Get Student By Student ID
+ 9.  Get Student by Student Name
+ 10. Get all Students that have the same Standard ID
+ 11. Add new Student
+ 12. Update Student
+ 13. Remove Student
+ 14. Exit Program
+
+Please enter the number of the command you wish to execute:
+(1 <= command number =< 14):
+13
+Remove Student using the RemoveStudent(Student removeStudentItem) method.
+Available Students to choose from:
+Student ID:
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+15
+
+Please Enter the Desired StudentID of the desired Student:15
+Student Successfully Removed. Here is all of the remaining Student data:
+Student ID:          Student Name:   Standard ID:    Row Version:
+1                    Student1        1               00-00-00-00-00-00-17-71
+2                    Student2        2               00-00-00-00-00-00-17-72
+3                    Student3        1               00-00-00-00-00-00-17-73
+4                    Student4        3               00-00-00-00-00-00-17-74
+5                    Student5        4               00-00-00-00-00-00-17-75
+6                    Student6        4               00-00-00-00-00-00-17-76
+7                    Student7        1               00-00-00-00-00-00-17-77
+8                    Student8        2               00-00-00-00-00-00-17-78
+9                    Student9        5               00-00-00-00-00-00-17-79
+10                   Student10       5               00-00-00-00-00-00-17-7A
+
+
+User Menu:
+ 1.  Display all Standards
+ 2.  Get Standard by Standard ID
+ 3.  Get Standard by Standard Name
+ 4.  Add new Standard
+ 5.  Udate Standard
+ 6.  Remove Standard
+ 7.  Display all Students
+ 8.  Get Student By Student ID
+ 9.  Get Student by Student Name
+ 10. Get all Students that have the same Standard ID
+ 11. Add new Student
+ 12. Update Student
+ 13. Remove Student
+ 14. Exit Program
+
+Please enter the number of the command you wish to execute:
+(1 <= command number =< 14):
+14
+You chose command #14:
+You will now exit the program...
+Your session has been terminated. Thank you for using this program.
+Click any key to close this window..
