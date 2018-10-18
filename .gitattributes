@@ -15,3 +15,12 @@
 *.PDF	 diff=astextplain
 *.rtf	 diff=astextplain
 *.RTF	 diff=astextplain
+
+
+*.ps1 linguist-detectable=false
+*.psm1 linguist-detectable=false
+*.psd1 linguist-detectable=false
+*.ps1xml linguist-detectable=false
+*.pssc linguist-detectable=false
+*.psrc linguist-detectable=false
+*.cdxml linguist-detectable=false
