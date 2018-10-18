@@ -1,4 +1,4 @@
-# Lab_5_Repository_Pattern
+Project Overview:
 Implementation of the Repository pattern using C#. 
 
 In this project I used the database SchoolDB, which has different tables, stored procedures and views. I created an Entity Data Model (EDM) for this SchoolDB database. Once this was done, I then used the Repository pattern to create an abstraction layer between the data access layer and the business logic layer. 
